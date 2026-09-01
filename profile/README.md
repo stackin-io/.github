@@ -9,6 +9,7 @@
   [![License](https://img.shields.io/badge/license-MIT-informational?style=flat-square)](https://docs.stackin.io)
   [![Python SDK](https://img.shields.io/pypi/v/stackin-python-sdk?label=python%20sdk&style=flat-square)](https://pypi.org/project/stackin-python-sdk)
   [![Go SDK](https://img.shields.io/badge/go%20sdk-github.com%2Fstackin--io-00ADD8?style=flat-square)](https://github.com/stackin-io/stackin-go-sdk)
+  [![PHP SDK](https://img.shields.io/packagist/v/stackin-io/stackin-php-sdk?label=php%20sdk&style=flat-square)](https://packagist.org/packages/stackin-io/stackin-php-sdk)
 
   [Docs](https://docs.stackin.io) · [Dashboard](https://app.stackin.io) · [Blog](https://docs.stackin.io/blog)
 </div>
@@ -31,8 +32,8 @@ No certificates to manage, no bureaucracy to learn — that's on us.
 |----------|---------|---------|
 | Python | [`stackin-python-sdk`](https://github.com/stackin-io/stackin-python-sdk) | `pip install stackin-python-sdk` |
 | Go | [`stackin-go-sdk`](https://github.com/stackin-io/stackin-go-sdk) | `go get github.com/stackin-io/stackin-go-sdk` |
+| PHP | [`stackin-php-sdk`](https://github.com/stackin-io/stackin-php-sdk) | `composer require stackin-io/stackin-php-sdk` |
 | Node/TS | `stackin-node-sdk` | coming soon |
-| PHP | `stackin-php-sdk` | coming soon |
 | Java | `stackin-java-sdk` | coming soon |
 | Ruby | `stackin-ruby-sdk` | coming soon |
 | Rust | `stackin-rust-sdk` | coming soon |
