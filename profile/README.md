@@ -8,6 +8,7 @@
 
   [![License](https://img.shields.io/badge/license-MIT-informational?style=flat-square)](https://docs.stackin.io)
   [![Python SDK](https://img.shields.io/pypi/v/stackin-python-sdk?label=python%20sdk&style=flat-square)](https://pypi.org/project/stackin-python-sdk)
+  [![Node SDK](https://img.shields.io/npm/v/@stackin-io/stackin-node-sdk?label=node%20sdk&style=flat-square)](https://www.npmjs.com/package/@stackin-io/stackin-node-sdk)
   [![Go SDK](https://img.shields.io/badge/go%20sdk-github.com%2Fstackin--io-00ADD8?style=flat-square)](https://github.com/stackin-io/stackin-go-sdk)
   [![PHP SDK](https://img.shields.io/packagist/v/stackin-io/stackin-php-sdk?label=php%20sdk&style=flat-square)](https://packagist.org/packages/stackin-io/stackin-php-sdk)
 
@@ -31,9 +32,9 @@ No certificates to manage, no bureaucracy to learn — that's on us.
 | Language | Package | Install |
 |----------|---------|---------|
 | Python | [`stackin-python-sdk`](https://github.com/stackin-io/stackin-python-sdk) | `pip install stackin-python-sdk` |
+| Node/TS | [`@stackin-io/stackin-node-sdk`](https://github.com/stackin-io/stackin-node-sdk) | `npm install @stackin-io/stackin-node-sdk` |
 | Go | [`stackin-go-sdk`](https://github.com/stackin-io/stackin-go-sdk) | `go get github.com/stackin-io/stackin-go-sdk` |
 | PHP | [`stackin-php-sdk`](https://github.com/stackin-io/stackin-php-sdk) | `composer require stackin-io/stackin-php-sdk` |
-| Node/TS | `stackin-node-sdk` | coming soon |
 | Java | `stackin-java-sdk` | coming soon |
 | Ruby | `stackin-ruby-sdk` | coming soon |
 | Rust | `stackin-rust-sdk` | coming soon |
@@ -42,6 +43,12 @@ No certificates to manage, no bureaucracy to learn — that's on us.
 | Kotlin | `stackin-kotlin-sdk` | coming soon |
 
 No SDK for your language yet? The REST API works with any HTTP client — see the [docs](https://docs.stackin.io).
+
+---
+
+## Open data
+
+- [`data-source`](https://github.com/stackin-io/data-source) — mirror versionado das publicações oficiais da NF-e (SEFAZ) e da NFS-e (ADN nacional gov.br). Scrape a cada 6h, entrega [feed Atom](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml) e [manifest JSON](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json). MIT, sem certificado, sem PSP — a mesma base fiscal que a Stackin usa internamente, aberta para qualquer integrador.
 
 ---
 
