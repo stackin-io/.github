@@ -46,12 +46,6 @@ No SDK for your language yet? The REST API works with any HTTP client — see th
 
 ---
 
-## Open data
-
-- [`data-source`](https://github.com/stackin-io/data-source) — mirror versionado das publicações oficiais da NF-e (SEFAZ) e da NFS-e (ADN nacional gov.br). Scrape a cada 6h, entrega [feed Atom](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml) e [manifest JSON](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json). MIT, sem certificado, sem PSP — a mesma base fiscal que a Stackin usa internamente, aberta para qualquer integrador.
-
----
-
 ## Links
 
 - [Docs](https://docs.stackin.io) — REST API reference, environments, auth
