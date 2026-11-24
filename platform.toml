@@ -1,0 +1,12 @@
+[project]
+name = ".github"
+type = "docs"
+ci = "none"
+
+[source_host]
+kind = "github"
+repo = "stackin-io/.github"
+
+[release]
+strategy = "semver"
+changelog = "conventional"
